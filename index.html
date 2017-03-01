@@ -1,0 +1,32 @@
+<!-- plik index.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Ajax </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <main>
+            <div>
+                <h2>Wyszukiwarka krajow</h2>
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit" id="search">Szukaj</button>                        
+                    </span>
+                    <input type="text" class="form-control" id="country-name" placeholder="...">
+                </div>
+                <h4>Lista krajow</h4>
+                <div class="list">
+                    <ul id="countries">
+                        <li>Brak danych</li>
+                    </ul>
+                </div>
+            </div>
+            <script type="text/javascript" src="scripts.js"></script>
+        </main>
+    </body>
+</html>
